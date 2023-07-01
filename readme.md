@@ -32,12 +32,12 @@ Each scenario consists of:<br/>
     git clone https://github.com/masoudomidvar/sales-reporter.git
     ```
 
-2. Run the migration with below URL.
+2. Run the migration with below URL (For creating the DB and the needed tables).
     ```sh
     http://localhost/sales-reporter/db/migration.php
     ```
 
-3. Run the sales importer with below URL to import the data from the sales.json file.
+3. Run the sales importer with below URL to import the data from the sales.json file in import folder.
     ```sh
     http://localhost/sales-reporter/import/sales-importer.php
     ```
