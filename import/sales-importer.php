@@ -44,7 +44,7 @@ class SalesImporter
 
             // Check if the product already exists in the database
             $productId = $this->repository->getProductIdByName($entry['product_name']);
-            // var_dump($productId);die;
+
             if (!$productId) {
                 // Insert the product into the products table
                 $productId = $this->repository->createProduct($entry['product_name'], $entry['product_price']);
